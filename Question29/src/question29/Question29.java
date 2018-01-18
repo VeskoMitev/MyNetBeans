@@ -16,6 +16,7 @@ import java.io.InputStreamReader;
 public class Question29 {
 
     public static int GetElementCount(int number) {
+        // 
         int result = number == 1 ? 1 : (number - 1) * 4;
         return result;
     }
